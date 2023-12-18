@@ -67,7 +67,16 @@
     font-size: 1.1rem;
     font-weight: bold;
 }
+.form-item > .psw-not {
+    border-color: red;
+}
 
+.form-item > .pswc-not {
+    border-color: red;
+}
+.form-item > #password-confirm + span {
+    color: red;
+}
 .form-item > input {
     height: 2.5rem;
     width: 19rem;
@@ -84,7 +93,9 @@ input:focus {
     border-color: blue;
     box-shadow: 6px 6px rgb(0,0,0,.1);
 }
-
+input:invalid {
+    border: 2px solid red;
+}
 .bottom {
     display: flex;
     flex-direction: column;

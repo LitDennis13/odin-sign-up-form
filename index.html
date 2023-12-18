@@ -24,7 +24,7 @@
         </div>
         <div class="sign-up-container">
             <h2 class="sign-up-container-title">Let's do this!</h2>
-            <form action="#" method="post" class="form-container">
+            <form action="https://httpbin.org/post" method="post" id="create-account-form" class="form-container">
                 <div class="form-item">
                     <label for="first-name">FIRST NAME</label>
                     <input type="text" name="user-first-name" id="first-name">
@@ -53,12 +53,13 @@
                 <div class="form-item">
                     <label for="password-confirm">CONFIRM PASSWORD</label>
                     <input type="password" id="password-confirm">
+                    <span></span>
                 </div>
 
             </form>
         </div>
         <div class="bottom">
-            <button id="submit-form">Create Account</button>
+            <button type="submit" form="create-account-form" id="submit-form">Create Account</button>
             <p><a href="#">Already have an account? Log in</a></p>
         </div>
     </div>
