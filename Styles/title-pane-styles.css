@@ -10,7 +10,8 @@
     background-image: url("../images/photo-1585202900225-6d3ac20a6962.avif");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 38vw;
+    width: 38%;
+    
     align-items: center;
     justify-content: center;
 }
